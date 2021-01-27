@@ -1,5 +1,5 @@
 <script lang="ts">
-	import Cell from '../Cell.svelte';
+	import Cell from './Cell.svelte';
 	import { sgrid, sdirections, ssnake } from './snake';
 
 	let snake = ssnake;
@@ -119,6 +119,9 @@
 </script>
 
 <svelte:window on:keydown={handler} />
+<svelte:head>
+	<title>Snaaake</title>
+</svelte:head>
 
 <h1>Snake Game for Bio thing lol</h1>
 
