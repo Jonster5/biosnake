@@ -125,6 +125,8 @@
 
 <h1>Snake Game for Bio thing lol</h1>
 
+<button on:click={restart}>Restart lol</button>
+
 <main>
 	{#each grid as g}
 		<div>
